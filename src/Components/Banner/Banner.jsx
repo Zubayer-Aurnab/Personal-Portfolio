@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 const Banner = () => {
 
     return (
-        <div id="home" className=" mt-32 relative z-10 h-screen">
+        <div id="home" className=" mt-32 relative z-10 h-screen md:z-10">
 
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-4/5 mx-auto gap-5">
                 <Slide left>

@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 const AboutMe = () => {
     return (
-        <div className="md:p-10">
+        <div id="about" className="md:p-10">
             <Title text={'About Me'} />
             <div>
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center 
