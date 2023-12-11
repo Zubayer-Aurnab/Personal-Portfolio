@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Banner from './Components/Banner/Banner';
 import Skills from './Components/Skills/Skills';
 import Par from './Components/Particles/Par';
+import MySkills from './Components/MySkills/MySkills';
 
 
 function App() {
@@ -20,14 +21,16 @@ function App() {
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }} className="h-screen">
-         
-            <NavBar />
-         
+
+          <NavBar />
+
           <Banner />
         </div>
         <Par />
       </div>
-      <Skills />
+      {/* <Skills /> */}
+      <MySkills />
+
     </>
   )
 }
