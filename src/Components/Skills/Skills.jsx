@@ -14,7 +14,7 @@ const Skills = () => {
 
     return (
         <div className="min-h-screen" >
-            <h1 className="text-3xl text-center mb-10">My skills</h1>
+            <h1 className="text-3xl text-center my-10">My skills</h1>
             <div className="grid  lg:grid-cols-3 gap-4 lg:w-4/5 mx-auto p-4">
                 {/* 1 */}
                 <div className="card  bg-base-100 shadow-xl text-center">

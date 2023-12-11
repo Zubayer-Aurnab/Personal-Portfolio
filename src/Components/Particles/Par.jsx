@@ -1,19 +1,39 @@
 
 import Particles from "react-particles";
-import { useCallback } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { loadFull } from "tsparticles";
 const Par = () => {
+    // const particleInit = useCallback(async (engine) => {
+    //     await loadFull(engine);
+    // }, [])
+    // const particleLoaded = useCallback(async (container) => {
+    //     await console.log(container);
+    // })
+    const [particleNumber, setParticleNumber] = useState(120);
+
     const particleInit = useCallback(async (engine) => {
         await loadFull(engine);
-    }, [])
+    }, []);
+
     const particleLoaded = useCallback(async (container) => {
         await console.log(container);
+    }, []);
 
-    })
+    useEffect(() => {
+        const updateParticleNumber = () => {
+            const isMobile = window.innerWidth <= 767; 
+            setParticleNumber(isMobile ? 30 : 90);
+        };
+        updateParticleNumber();
+        window.addEventListener("resize", updateParticleNumber);
+        return () => {
+            window.removeEventListener("resize", updateParticleNumber);
+        };
+    }, []);
     return (
         <div>
             <Particles
-                className="hidden lg:flex  "
+                className="  "
                 id="tsparticles"
                 init={particleInit}
                 loaded={particleLoaded}
@@ -66,7 +86,7 @@ const Par = () => {
 
                         },
                         number: {
-                            value: 100,
+                            value: particleNumber,
 
                         },
                         move: {

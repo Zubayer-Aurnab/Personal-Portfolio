@@ -9,10 +9,10 @@ const Banner = () => {
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-4/5 mx-auto gap-5">
                 <Slide left>
                     <div className="flex-1 ">
-                        <p className="text-xl md:text-4xl font-bold  lg:text-5xl font-bold mb-10 text-center text-white">
+                        <p className="text-xl md:text-4xl  lg:text-5xl font-bold mb-10 text-center text-white ">
                             Hello, It's Me <br /> <span id="element" className=" text-[#64b5f6]  ">
                                 <Typed
-                                    className='text-3xl'
+                                    className='md:text-3xl'
                                     strings={
                                         [
                                             "Zubayer Alam Aurnab",
@@ -32,6 +32,7 @@ const Banner = () => {
                             <a href={resume} download='resume' target="_blank" rel="noopener noreferrer" className='btn btn-outline btn-info'>
                                 Resume
                             </a>
+                            
                         </div>
                     </div>
                 </Slide>

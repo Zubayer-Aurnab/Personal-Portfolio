@@ -20,7 +20,9 @@ function App() {
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }} className="h-screen">
-          <NavBar />
+         
+            <NavBar />
+         
           <Banner />
         </div>
         <Par />
