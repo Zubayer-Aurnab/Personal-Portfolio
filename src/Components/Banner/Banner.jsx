@@ -1,8 +1,9 @@
 import Slide from 'react-reveal/Slide';
 import Typed from 'react-typed';
 import resume from '../../assets/AURNAB_WEB_DEVELOPER.pdf'
+import Button from '../Button/Button';
 const Banner = () => {
-   
+
     return (
         <div id="home" className=" mt-32 relative z-10 h-screen">
 
@@ -27,12 +28,13 @@ const Banner = () => {
                                 />
                             </span>
                         </p>
-                        <div className='text-center'>
-                         
-                            <a href={resume} download='resume' target="_blank" rel="noopener noreferrer" className='btn btn-outline btn-info'>
-                                Resume
+                        <div className='flex justify-center'>
+
+                            <a href={resume} download='resume' target="_blank" rel="noopener noreferrer" className=''>
+                                <Button />
                             </a>
-                            
+
+
                         </div>
                     </div>
                 </Slide>
