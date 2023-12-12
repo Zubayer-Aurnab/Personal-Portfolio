@@ -1,10 +1,12 @@
-import './Button.css'
 
-const Button = ({text}) => {
+
+const ContactBtn = () => {
+
+
     return (
         <div>
-            <button id='btn1' className="btn" type="button">
-                <strong>{text}</strong>
+            <button  id='btn1' className="btn" type="button">
+                <strong>Contact</strong>
                 <div id="container-stars">
                     <div id="stars"></div>
                 </div>
@@ -18,4 +20,4 @@ const Button = ({text}) => {
     );
 };
 
-export default Button;
+export default ContactBtn;

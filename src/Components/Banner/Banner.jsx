@@ -31,7 +31,7 @@ const Banner = () => {
                         <div className='flex justify-center'>
 
                             <a href={resume} download='resume' target="_blank" rel="noopener noreferrer" className=''>
-                                <Button />
+                                <Button text={"RESUME"} />
                             </a>
 
 

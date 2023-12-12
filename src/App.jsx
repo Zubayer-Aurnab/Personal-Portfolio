@@ -8,11 +8,12 @@ import MySkills from './Components/MySkills/MySkills';
 import AboutMe from './Components/AboutMe/AboutMe';
 import { motion, useScroll } from "framer-motion"
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import { Toaster } from 'react-hot-toast';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const { scrollYProgress } = useScroll();
-
-
   return (
     <>
       <motion.div style={{
@@ -41,7 +42,10 @@ function App() {
       <MySkills />
       <AboutMe />
       <Projects />
-
+      <Contact />
+      <Footer />
+      <Toaster position="top-center"
+        reverseOrder={false} />
     </>
   )
 }

@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div className=' p-10'>
             <Title text={'Projects'} />
-            <div className=' md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4'>
+            <div className=' md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10'>
                 {/* 1 */}
                 <ProjectCard
                     image={'https://i.ibb.co/wWW230W/screencapture-assignmest-12-web-app-2023-12-12-01-38-13.png'}
