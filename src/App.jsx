@@ -11,6 +11,7 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import { Toaster } from 'react-hot-toast';
 import Footer from './Components/Footer/Footer';
+import ScrollUp from './Components/ScroolUP/ScrollUp';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -43,6 +44,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
+      <ScrollUp />
       <Footer />
       <Toaster position="top-center"
         reverseOrder={false} />

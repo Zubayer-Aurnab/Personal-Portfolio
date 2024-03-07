@@ -25,7 +25,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div id='contact'>
             <Toaster position="top-center"
                 reverseOrder={false} />
             <Title text={"Contact Me"} />

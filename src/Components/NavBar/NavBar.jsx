@@ -15,13 +15,17 @@ const NavBar = () => {
                 <NavBtn text={" ABOUT ME"} />
             </li>
         </a>
+        <a href="#projects">
+            <li>
+                <NavBtn text={" PROJECTS"} />
+            </li>
+        </a>
 
-        <li>
-            <NavBtn text={" PROJECTS"} />
-        </li>
-        <li>
-            <NavBtn text={" CONTACT"} />
-        </li>
+        <a href="#contact">
+            <li>
+                <NavBtn text={" CONTACT"} />
+            </li>
+        </a>
     </>
     return (
         <div className="navbar bg-neutral-900 z-10 relative lg:px-44 ">

@@ -3,9 +3,22 @@ import Title from '../Title/Title'
 
 const Projects = () => {
     return (
-        <div className=' p-10'>
+        <div id='projects' className=' md:p-10'>
             <Title text={'Projects'} />
-            <div className=' md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10'>
+            <div className=' p-4 md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10'>
+                {/* 0 */}
+                <ProjectCard
+                    image={'https://i.ibb.co/Hqppr0c/screencapture-fit-track-client-vercel-app-2024-03-07-12-17-42.png'}
+                    codeLink={'https://github.com/justJubair/fit-track-client/tree/main'}
+                    liveLink={"https://fit-track-client.vercel.app/"}
+                    name={"Fit Track"} >
+                    Developed and launched a dynamic Contest Hub website, seamlessly
+                    blending functionality with a touch of fun. Users easily join
+                    contests via a secure login system with role-based access. Implemented
+                    robust payment methods for smooth transactions,
+                    enhancing overall user engagement across devices. The platform
+                    features a dynamic dashboard tailored for three distinct roles
+                </ProjectCard>
                 {/* 1 */}
                 <ProjectCard
                     image={'https://i.ibb.co/wWW230W/screencapture-assignmest-12-web-app-2023-12-12-01-38-13.png'}
@@ -39,7 +52,9 @@ const Projects = () => {
                     codeLink={'https://github.com/Zubayer-Aurnab/Wedding-website'}
                     liveLink={"https://wedding-management-575f2.web.app/"}
                     name={"The Farmhouse"} >
-                    Discover seamless wedding planning with our user-friendly website—book services effortlessly, connect with our team, and explore detailed descriptions of our offerings. Our responsive design ensures a flawless experience on any device, while a stunning gallery provides inspiration from past events. Enjoy swift loading times with our lightweight website design. Make your wedding planning a breeze—explore our site for an enchanting journey toward your dream day.</ProjectCard>
+                    Discover seamless wedding planning with our user-friendly website—book services effortlessly, connect with our team, and explore detailed descriptions of our offerings. Our responsive design ensures a flawless experience on any device, while a stunning gallery provides inspiration from past events. Enjoy swift loading times with our lightweight website design. Make your wedding planning a breeze—explore our site for an enchanting journey toward your dream day.
+                </ProjectCard>
+              
             </div>
         </div>
     );
