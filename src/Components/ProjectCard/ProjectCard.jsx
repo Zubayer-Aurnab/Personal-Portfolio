@@ -3,6 +3,7 @@ import Codebtn from './CodeBtn/Codebtn';
 import LiveBtn from './LiveBtn/LiveBtn';
 import './ProjectCard.css';
 
+// eslint-disable-next-line react/prop-types
 const ProjectCard = ({ image, name, children, codeLink, liveLink }) => {
     return (
         <Fade bottom>
@@ -16,12 +17,12 @@ const ProjectCard = ({ image, name, children, codeLink, liveLink }) => {
                     <div className='flex justify-between sm:absolute bottom-2 gap-12  '>
 
                         <div className=''>
-                            <a href={codeLink} target="_blank">
+                            <a href={codeLink} target="_blank" rel="noreferrer">
                                 <Codebtn />
                             </a>
                         </div>
                         <div>
-                            <a href={liveLink} target="_blank">
+                            <a href={liveLink} target="_blank" rel="noreferrer">
                                 <LiveBtn />
                             </a>
                         </div>

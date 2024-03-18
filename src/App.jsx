@@ -40,8 +40,8 @@ function App() {
         </div>
         <Par />
       </div>
-      <MySkills />
       <AboutMe />
+      <MySkills />
       <Projects />
       <Contact />
       <ScrollUp />

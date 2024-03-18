@@ -3,3 +3,58 @@
   -moz-box-shadow: 0px 0px 50px 10px rgba(100, 180, 246, 0.5);
   box-shadow: 0px 0px 50px 10px rgba(100, 180, 246, 0.5);
 }
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.slow-wheel {
+  animation: rotate360 10s linear infinite;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.paperScrollPaper {
+  background: rgba(90, 80, 85, 0.2) !important;
+  backdrop-filter: blur(100px) !important;
+  box-shadow: inset 1px 1px 10px rgba(209, 204, 204, 0.63) !important;
+  
+}
+@keyframes shake {
+      0% { transform: translateX(0); }
+      10% { transform: translateX(-5px) rotate(-2deg); }
+      20% { transform: translateX(5px) rotate(2deg); }
+      30% { transform: translateX(-5px) rotate(-2deg); }
+      40% { transform: translateX(5px) rotate(2deg); }
+      50% { transform: translateX(-5px) rotate(-1deg); }
+      60% { transform: translateX(5px) rotate(1deg); }
+      70% { transform: translateX(-5px) rotate(0); }
+      80% { transform: translateX(5px) rotate(0); }
+      90% { transform: translateX(-5px) rotate(0); }
+      100% { transform: translateX(0); }
+    }
+
+    .shake {
+      animation: shake 12s ease infinite;
+    }

@@ -24,6 +24,9 @@ const AboutMe = () => {
                                 Reach out to me at <span className="text-[#64b5f6] font-bold">zubayeraurnab@gmail.com</span> to discuss how we can work together to achieve your web development goals.
                                 <br />
                                 <br />
+                                📞+8801943233152
+                                <br />
+                                <br />
                                 <span className="text-[#64b5f6] border-b-2">Education</span> <br /> <br />
                                 <span>Bsc in Psychology</span> <br />
                                 <span className="text-lg">National University</span><br />
