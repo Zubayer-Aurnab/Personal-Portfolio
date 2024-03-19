@@ -11,13 +11,13 @@ const Projects = () => {
                     image={'https://i.ibb.co/Hqppr0c/screencapture-fit-track-client-vercel-app-2024-03-07-12-17-42.png'}
                     codeLink={'https://github.com/justJubair/fit-track-client/tree/main'}
                     liveLink={"https://fit-track-client.vercel.app/"}
-                    name={"Fit Track"} >
-                    Developed and launched a dynamic Contest Hub website, seamlessly
-                    blending functionality with a touch of fun. Users easily join
-                    contests via a secure login system with role-based access. Implemented
-                    robust payment methods for smooth transactions,
-                    enhancing overall user engagement across devices. The platform
-                    features a dynamic dashboard tailored for three distinct roles
+                    name={"Fit Track"}
+                    youtube={"https://youtu.be/NPQujnbspas?si=FDo1NAu3D0tq3u4M"}
+                >
+                    And recently, I led a team of 6 developers. We built a highly functional fitness tracking app called Fit Track.
+                    Our goal with this fitness tracking application is simple: we want to make Fit Track your one-stop solution for all your health and fitness-related needs.
+                    we use Next.js and Material UI. And for the backend, we utilize Mongoose and MongoDB as the database, along with Node.js and Express
+
                 </ProjectCard>
                 {/* 1 */}
                 <ProjectCard
@@ -54,7 +54,7 @@ const Projects = () => {
                     name={"The Farmhouse"} >
                     Discover seamless wedding planning with our user-friendly website—book services effortlessly, connect with our team, and explore detailed descriptions of our offerings. Our responsive design ensures a flawless experience on any device, while a stunning gallery provides inspiration from past events. Enjoy swift loading times with our lightweight website design. Make your wedding planning a breeze—explore our site for an enchanting journey toward your dream day.
                 </ProjectCard>
-              
+
             </div>
         </div>
     );
