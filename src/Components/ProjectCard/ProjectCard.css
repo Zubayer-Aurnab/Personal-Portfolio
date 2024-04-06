@@ -14,7 +14,7 @@
       }
       
       .card .top-section {
-        height: 300px;
+        height: 400px;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
@@ -24,9 +24,9 @@
       }
       
       .card .top-section .border {
-        border-bottom-right-radius: 10px;
+        border-bottom-right-radius: 0px;
         height: 30px;
-        width: 230px;
+        width: 250px;
         background: white;
         background: #1b233d;
         position: relative;

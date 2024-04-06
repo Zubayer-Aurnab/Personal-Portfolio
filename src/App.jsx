@@ -12,6 +12,7 @@ import Contact from './Components/Contact/Contact';
 import { Toaster } from 'react-hot-toast';
 import Footer from './Components/Footer/Footer';
 import ScrollUp from './Components/ScroolUP/ScrollUp';
+import ClientProject from './Components/ClientProject/ClientProject';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -42,6 +43,7 @@ function App() {
       </div>
       <AboutMe />
       <MySkills />
+      <ClientProject />
       <Projects />
       <Contact />
       <ScrollUp />

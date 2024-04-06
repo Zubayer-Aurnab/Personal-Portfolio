@@ -141,6 +141,7 @@ const MySkills = () => {
                         <progress className="progress progress-info w-full border" value="90" max="100"></progress>
                     </div>
                 </Slide>
+               
 
             </div>
         </div>
