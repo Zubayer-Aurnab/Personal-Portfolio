@@ -4,8 +4,8 @@ import Title from "../Title/Title";
 
 const AboutMe = () => {
     return (
-        <div id="about" className="md:p-10">
-            <Title text={'About Me'} />
+        <div id="about" className="md:p-10 lg:h-screen">
+            <Title text={'ABOUT ME'} />
             <div>
                 <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center 
             w-4/5 mx-auto gap-5">
@@ -20,14 +20,14 @@ const AboutMe = () => {
                                 I specialize in creating clean, functional, and visually appealing websites. My expertise lies in crafting responsive and user-friendly interfaces that leave a lasting impression.
                                 <br />
                                 <br />
-                                ✉️ 
-                                Reach out to me at <span className="text-[#64b5f6] font-bold">zubayeraurnab@gmail.com</span> to discuss how we can work together to achieve your web development goals.
+                                ✉️
+                                Reach out to me at <span className="text-[#bcfd49] font-bold">zubayeraurnab@gmail.com</span> to discuss how we can work together to achieve your web development goals.
                                 <br />
                                 <br />
                                 📞+8801943233152
                                 <br />
                                 <br />
-                                <span className="text-[#64b5f6] border-b-2">Education</span> <br /> <br />
+                                <span className="text-[#bcfd49] border-b-2">Education</span> <br /> <br />
                                 <span>Bsc in Psychology</span> <br />
                                 <span className="text-lg">National University</span><br />
                                 <span className="text-lg">[2021-2025]</span>

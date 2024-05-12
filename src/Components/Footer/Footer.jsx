@@ -2,13 +2,13 @@ import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 const Footer = () => {
     return (
-        <footer className="footer p-2 lg:px-96 bg-[#1b233d] text-neutral-content flex justify-between items-center">
+        <footer className="footer p-2 lg:px-96 bg-[#bcfd49]  flex justify-between items-center text-black font-bold" >
             <aside>
 
-                <p>© 2020 yitbd. All Rights Reserved. Design and developed by Zubayer Alam Aurnab</p>
+                <p>© {new Date().getFullYear()} . All Rights Reserved. Design and developed by Zubayer Alam Aurnab</p>
             </aside>
             <nav>
-                <header className="footer-title">Social</header>
+                <header className=" text-lg   ml-4" >Social</header>
                 <div className="grid grid-flow-col gap-4">
                     <a href="https://github.com/Zubayer-Aurnab" target="_blank" rel="noreferrer" className="text-4xl ">
                         <FaGithub />

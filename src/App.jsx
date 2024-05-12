@@ -23,8 +23,8 @@ function App() {
         top: 0,
         right: 0,
         left: 0,
-        height: 7,
-        background: "#64b5f6",
+        height: 4,
+        background: "#bcfd49",
         transformOrigin: '0%',
         zIndex: 100
       }} />

@@ -3,8 +3,8 @@ import Title from '../Title/Title'
 
 const Projects = () => {
     return (
-        <div id='projects' className=' md:p-10'>
-            <Title text={'Personal Projects'} />
+        <div id='projects' className=' md:p-10 mt-44'>
+            <Title text={"PERSONAL PROJECT'S"} />
             <div className=' p-4 md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10'>
                 {/* 0 */}
                 <ProjectCard

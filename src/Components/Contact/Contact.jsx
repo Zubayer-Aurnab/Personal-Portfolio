@@ -4,13 +4,14 @@ import contact from '../../../public/contact.json';
 import Title from "../Title/Title";
 import { useRef } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
+import ContactBtn from '../ContactBtn/ContactBtn';
 
 
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-    
+
         emailjs.sendForm('service_ecstfoa', 'template_60frdyc', form.current, 'W3qX_l1LAwthtsZhR')
             .then((result) => {
                 // console.log(result);
@@ -25,14 +26,14 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact'>
+        <div id='contact' className='mt-44'>
             <Toaster position="top-center"
                 reverseOrder={false} />
-            <Title text={"Contact Me"} />
+            <Title text={"CONTACT ME"} />
             <div>
                 <div>
                     <section className="  flex items-center  ">
-                        <div className="py- px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 items-center ">
+                        <div className="py- px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 lg:gap-16 items-center ">
                             <div className="flex flex-col justify-center   p-1 px-10  rounded-lg opacity-95">
                                 <Lottie
                                     animationData={contact}
@@ -41,7 +42,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <div className="w-full lg:max-w-xl p-6 space-y-8 sm:p-8  rounded-lg shadow-xl  bg-gradient-to-r from-primary1 via-primary3 to-primary4">
-                                   
+
                                     <form
                                         ref={form} onSubmit={sendEmail}
                                         className="mt-8 space-y-6" action="#">
@@ -93,18 +94,7 @@ const Contact = () => {
                                         </div>
 
                                         <div className='flex  justify-center   lg:space-y-0'>
-                                            <button id='btn1' className="btn" type="submit">
-                                                <strong>Contact</strong>
-                                                <div id="container-stars">
-                                                    <div id="stars"></div>
-                                                </div>
-
-                                                <div id="glow">
-                                                    <div className="circle"></div>
-                                                    <div className="circle"></div>
-                                                </div>
-                                            </button>
-
+                                            <ContactBtn />
                                         </div>
 
                                     </form>

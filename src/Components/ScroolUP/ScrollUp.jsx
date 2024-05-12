@@ -30,17 +30,17 @@ const ScrollUp = () => {
                     pagination={{
                         clickable: true,
                     }}
-                    modules={[FreeMode, Pagination, Autoplay]}
+                    modules={[FreeMode, Pagination,]}
                     loop={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     className="mySwiper"
                 >
                     <SwiperSlide className="" >
                         <a href="https://drive.google.com/file/d/1EcioiJYmwxZk2Mz-JdHyKjn8THeo5C9t/view?usp=sharing" target="_blank" rel="noreferrer">
-                            <img src={PH} alt="Programming hero " className=" h-28 md:h-52 lg:h-72 object-cover" />
+                            <img src={PH} alt="Programming hero " className=" h-28 md:h-52 lg:h-[16.2rem] object-cover" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
