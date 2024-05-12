@@ -1,18 +1,17 @@
 
-import './App.css'
+import './App.css';
 
-import NavBar from './Components/NavBar/NavBar';
-import Banner from './Components/Banner/Banner';
-import Par from './Components/Particles/Par';
-import MySkills from './Components/MySkills/MySkills';
-import AboutMe from './Components/AboutMe/AboutMe';
-import { motion, useScroll } from "framer-motion"
-import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
+import { motion, useScroll } from "framer-motion";
 import { Toaster } from 'react-hot-toast';
-import Footer from './Components/Footer/Footer';
-import ScrollUp from './Components/ScroolUP/ScrollUp';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Banner from './Components/Banner/Banner';
 import ClientProject from './Components/ClientProject/ClientProject';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import MySkills from './Components/MySkills/MySkills';
+import NavBar from './Components/NavBar/NavBar';
+import Projects from './Components/Projects/Projects';
+import ScrollUp from './Components/ScroolUP/ScrollUp';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -29,7 +28,7 @@ function App() {
         transformOrigin: '0%',
         zIndex: 100
       }} />
-      <div>
+      {/* <div>
         <div style={{
           backgroundImage: 'url("https://i.ibb.co/TRgWtv1/back1.jpg")',
           backgroundPosition: 'center',
@@ -40,7 +39,9 @@ function App() {
           <Banner />
         </div>
         <Par />
-      </div>
+      </div> */}
+      <NavBar />
+      <Banner />
       <AboutMe />
       <MySkills />
       <ClientProject />

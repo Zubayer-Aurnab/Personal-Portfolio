@@ -1,30 +1,30 @@
-import Slide from 'react-reveal/Slide';
+import "https://unpkg.com/@splinetool/viewer@1.3.1/build/spline-viewer.js";
 import Typed from 'react-typed';
-import resume from '../../assets/AURNAB_WEB_DEVELOPER.pdf'
+import resume from '../../assets/AURNAB_WEB_DEVELOPER.pdf';
 import Button from '../Button/Button';
 const Banner = () => {
 
     return (
-        <div id="home" className=" mt-32 relative z-10 h-screen md:z-10">
+        <div id="home" className="  h-screen">
 
-            <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-4/5 mx-auto gap-5">
-                <Slide left>
-                    <div className="flex-1 ">
+            <div className="flex flex-col-reverse lg:flex-row  items-center ">
+
+                <div className="h-[80vh]   flex justify-end items-center flex-1">
+                    <div>
                         <p className="text-xl md:text-4xl  lg:text-5xl font-bold mb-10 text-center text-white ">
-                            Hello, It's Me <br /> <span id="element" className=" text-[#64b5f6]  ">
+                            Zubayer Alam Aurnab <br /> <span style={{ fontFamily: "'Orbitron', sans-serif" }} id="element" className=" text-[#bcfd49]  ">
                                 <Typed
                                     className='md:text-3xl'
                                     strings={
                                         [
-                                            "Zubayer Alam Aurnab",
-                                            "WEB Developer ",
-                                            "Front-End "
+                                            "WEB DEVELOPER ",
+                                            "MERN Stack"
                                         ]
                                     }
                                     typeSpeed={70}
                                     backSpeed={30}
                                     loop
-                                    backDelay={2000}
+                                    backDelay={3000}
                                 />
                             </span>
                         </p>
@@ -37,24 +37,24 @@ const Banner = () => {
 
                         </div>
                     </div>
-                </Slide>
+                </div>
 
-                <Slide right>
+                <div className="   flex-1 h-[80vh] w-full justify-center items-center">
+                    {/* <img className="w-2/3  rounded-full mx-auto" src="https://i.ibb.co/nrS9P0H/329788705-1595954960907826-6575653788087669216-n.jpg" alt="" /> */}
 
-                    <div className="flex-1 justify-center items-center">
-                        <img className="w-2/3  rounded-full mx-auto" src="https://i.ibb.co/nrS9P0H/329788705-1595954960907826-6575653788087669216-n.jpg" alt="" />
+                    {/* <spline-viewer url="https://prod.spline.design/SRLrCPeLrOOgMsbD/scene.splinecode"></spline-viewer>
+                    <script type="module" src=""></script> */}
+                    <spline-viewer hint url="https://prod.spline.design/SRLrCPeLrOOgMsbD/scene.splinecode"></spline-viewer>
+                    {/* <spline-viewer url="https://prod.spline.design/SRLrCPeLrOOgMsbD/scene.splinecode"></spline-viewer> */}
+                </div>
 
-                    </div>
-                </Slide>
-
-            </div>
-
-            <div className="text-center my-9">
 
             </div>
+
+
         </div>
 
-    ); 
+    );
 };
 
 export default Banner;

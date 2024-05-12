@@ -38,7 +38,7 @@ const AboutMe = () => {
 
                     <Slide left>
                         <div className="flex-1 justify-center items-center">
-                            <img className=" lg:w-2/3  mx-auto rounded-xl" src='https://i.ibb.co/Vv1jvGR/Whats-App-Image-2023-12-11-at-11-26-58-PM.jpg' alt="" />
+                            <img className=" lg:w-2/3  mx-auto rounded-xl" src='https://i.ibb.co/7bvVxdG/439019058-3901065896836524-6222229919916727164-n.jpg' alt="" />
 
                         </div>
                     </Slide>
