@@ -1,14 +1,13 @@
 import { Slide } from "react-reveal";
 import Title from "../Title/Title";
-
+import me from '../../assets/me.jpg'
 
 const AboutMe = () => {
     return (
         <div id="about" className="md:p-10 lg:h-screen">
             <Title text={'ABOUT ME'} />
             <div>
-                <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center 
-            w-4/5 mx-auto gap-5">
+                <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center w-4/5 mx-auto gap-5">
                     <Slide right>
                         <div className="flex-1">
 
@@ -27,8 +26,10 @@ const AboutMe = () => {
                                 📞+8801943233152
                                 <br />
                                 <br />
-                                <span className="text-[#bcfd49] border-b-2">Education</span> <br /> <br />
-                                <span>Bsc in Psychology</span> <br />
+                                <span className="text-[#bcfd49] border-b-2">Education</span>
+                                <br />
+                                <br />
+                                <span className="">Bsc in Psychology</span> <br />
                                 <span className="text-lg">National University</span><br />
                                 <span className="text-lg">[2021-2025]</span>
                             </p>
@@ -38,7 +39,7 @@ const AboutMe = () => {
 
                     <Slide left>
                         <div className="flex-1 justify-center items-center">
-                            <img className=" lg:w-2/3  mx-auto rounded-xl" src='https://i.ibb.co/7bvVxdG/439019058-3901065896836524-6222229919916727164-n.jpg' alt="" />
+                            <img className=" lg:w-2/3  mx-auto rounded-xl" src={me}alt="" />
 
                         </div>
                     </Slide>

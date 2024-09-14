@@ -1,6 +1,8 @@
 import ProjectCard from '../ProjectCard/ProjectCard';
 import Title from '../Title/Title'
-
+import fittrack from '../../assets/projects/Fit-Track.png'
+import flyB from '../../assets/projects/Flying-Bird.png'
+import Travood from '../../assets/projects/Travood.png'
 const Projects = () => {
     return (
         <div id='projects' className=' md:p-10 mt-44'>
@@ -8,7 +10,18 @@ const Projects = () => {
             <div className=' p-4 md:w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:px-10'>
                 {/* 0 */}
                 <ProjectCard
-                    image={'https://i.ibb.co/Hqppr0c/screencapture-fit-track-client-vercel-app-2024-03-07-12-17-42.png'}
+                    image={flyB}
+
+                    liveLink={"https://www.flyingbird.com.bd/"}
+                    name={"Flying Bird"}
+                >
+                    Flying Bird was a travel website offering destination information, plane ticket and visa applications, group
+                    bookings, and Umrah trips. Users could easily book tickets and plan travels, enjoying a seamless experience with
+                    comparison options and comprehensive guides
+
+                </ProjectCard>
+                <ProjectCard
+                    image={fittrack}
                     codeLink={'https://github.com/justJubair/fit-track-client/tree/main'}
                     liveLink={"https://fit-track-client.vercel.app/"}
                     name={"Fit Track"}
@@ -34,7 +47,7 @@ const Projects = () => {
                 </ProjectCard>
                 {/* 2 */}
                 <ProjectCard
-                    image={'https://i.ibb.co/bWQqv51/screencapture-hungry-explorer-web-app-2023-12-12-01-58-53.png'}
+                    image={Travood}
                     codeLink={'https://github.com/Zubayer-Aurnab/TRAVOOD-FOOD-WEBSITE'}
                     liveLink={"https://hungry-explorer.web.app/"}
                     name={"TRAVOOD"} >
@@ -47,13 +60,13 @@ const Projects = () => {
                     proficiency in delivering comprehensive and interactive web
                     solutions.</ProjectCard>
                 {/* 3 */}
-                <ProjectCard
+                {/* <ProjectCard
                     image={'https://i.ibb.co/sQCkyNj/screencapture-wedding-management-575f2-web-app-2023-12-12-02-14-57.png'}
                     codeLink={'https://github.com/Zubayer-Aurnab/Wedding-website'}
                     liveLink={"https://wedding-management-575f2.web.app/"}
                     name={"The Farmhouse"} >
                     Discover seamless wedding planning with our user-friendly website—book services effortlessly, connect with our team, and explore detailed descriptions of our offerings. Our responsive design ensures a flawless experience on any device, while a stunning gallery provides inspiration from past events. Enjoy swift loading times with our lightweight website design. Make your wedding planning a breeze—explore our site for an enchanting journey toward your dream day.
-                </ProjectCard>
+                </ProjectCard> */}
 
             </div>
         </div>

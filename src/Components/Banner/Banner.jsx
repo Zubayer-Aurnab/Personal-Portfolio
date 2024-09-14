@@ -39,13 +39,12 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 h-[80vh] w-full justify-center items-center ">
+                <div className="flex-1 lg:h-[80vh] w-full justify-center items-center ">
                     <spline-viewer loading-anim-type="spinner-small-light" url="https://prod.spline.design/SRLrCPeLrOOgMsbD/scene.splinecode"></spline-viewer>
                 </div>
             </div>
             <div className="h-[40vh] w-[9.5rem] lg:w-40 bg-black absolute right-2  bottom-36 md:bottom-[-150px] lg:bottom-[7.2rem] z-40 rounded-2xl
-            ">
-
+">
             </div>
 
 
