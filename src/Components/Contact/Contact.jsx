@@ -22,6 +22,7 @@ const Contact = () => {
                 }
             }, (error) => {
                 console.log(error.text);
+                toast.error('This Feature is currently unavailable')
             });
     };
 

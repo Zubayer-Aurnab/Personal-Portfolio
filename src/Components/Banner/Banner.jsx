@@ -5,11 +5,11 @@ import Button from '../Button/Button';
 const Banner = () => {
 
     return (
-        <div id="home" className="h-screen md:mb-10 lg:mb-0">
+        <div id="home" className="h-screen mb-0 md:mb-28 lg:mb-0">
 
             <div className="flex flex-col lg:flex-row  items-center ">
 
-                <div className="h-[80vh]  flex justify-end items-center flex-1 my-10 lg:my-0 " >
+                <div className="h-[80vh]  flex justify-end items-center flex-1 mt-60 lg:mt-0  my-10 lg:my-0 " >
                     <div>
                         <p className="text-3xl md:text-4xl  lg:text-5xl font-bold mb-10 text-center text-white ">
                             Zubayer Alam Aurnab <br /> <span style={{ fontFamily: "'Orbitron', sans-serif" }} id="element" className=" text-[#bcfd49]  ">
@@ -39,12 +39,11 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 lg:h-[80vh] w-full justify-center items-center ">
+                <div className="flex-1 lg:h-[80vh] w-full justify-center items-center hidden md:flex ">
                     <spline-viewer loading-anim-type="spinner-small-light" url="https://prod.spline.design/SRLrCPeLrOOgMsbD/scene.splinecode"></spline-viewer>
                 </div>
             </div>
-            <div className="h-[40vh] w-[9.5rem] lg:w-40 bg-black absolute right-2  bottom-36 md:bottom-[-150px] lg:bottom-[7.2rem] z-40 rounded-2xl
-">
+            <div className="h-[40vh] w-[9.5rem] lg:w-40 bg-black absolute right-2  bottom-36 md:bottom-[-150px] lg:bottom-[7.2rem] z-40 rounded-2xl hidden md:flex ">
             </div>
 
 

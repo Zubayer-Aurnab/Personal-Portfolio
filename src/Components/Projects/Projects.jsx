@@ -3,6 +3,7 @@ import Title from '../Title/Title'
 import fittrack from '../../assets/projects/Fit-Track.png'
 import flyB from '../../assets/projects/Flying-Bird.png'
 import Travood from '../../assets/projects/Travood.png'
+import ContestHub from '../../assets/projects/Contest-hub.png'
 const Projects = () => {
     return (
         <div id='projects' className=' md:p-10 mt-44'>
@@ -11,7 +12,6 @@ const Projects = () => {
                 {/* 0 */}
                 <ProjectCard
                     image={flyB}
-
                     liveLink={"https://www.flyingbird.com.bd/"}
                     name={"Flying Bird"}
                 >
@@ -34,7 +34,7 @@ const Projects = () => {
                 </ProjectCard>
                 {/* 1 */}
                 <ProjectCard
-                    image={'https://i.ibb.co/wWW230W/screencapture-assignmest-12-web-app-2023-12-12-01-38-13.png'}
+                    image={ContestHub}
                     codeLink={'https://github.com/Zubayer-Aurnab/ContestHub'}
                     liveLink={"https://assignmest-12.web.app/"}
                     name={"ContestHub"} >

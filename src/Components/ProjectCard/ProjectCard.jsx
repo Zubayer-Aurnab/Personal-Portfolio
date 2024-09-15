@@ -8,12 +8,12 @@ const ProjectCard = ({ image, name, children, codeLink, liveLink, youtube }) => 
     return (
         <Fade bottom>
 
-            <div href="#"
+            <a href={liveLink}
                 className="group relative block max-w-screen-sm  w-full mx-auto h"
             >
 
                 <div
-                    className="relative flex h-full w-full transform items-end border-2 border-[#bcfd49]  bg-white  transition-transform "
+                    className="relative flex h-full w-full transform items-end   bg-white  transition-transform "
                 >
                     <div
                         className=" !p-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8 duration-500"
@@ -24,7 +24,7 @@ const ProjectCard = ({ image, name, children, codeLink, liveLink, youtube }) => 
                     <div
                         className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8 duration-500"
                     >
-                        <h3 className="mt-4  font-medium text-4xl">{name}</h3>
+                        <h3 className="mt-4  font-medium text-4xl border-b-4 w-max border-[#bcfd49] ">{name}</h3>
 
                         <p className="mt-4 text-xl">
                             {children}
@@ -52,7 +52,7 @@ const ProjectCard = ({ image, name, children, codeLink, liveLink, youtube }) => 
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
 
         </Fade>
