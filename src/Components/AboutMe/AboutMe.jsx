@@ -23,7 +23,7 @@ const AboutMe = () => {
                                 Reach out to me at <span className="text-[#bcfd49] font-bold">zubayeraurnab@gmail.com</span> to discuss how we can work together to achieve your web development goals.
                                 <br />
                                 <br />
-                                📞+8801943233152
+                                📞+8801943233153
                                 <br />
                                 <br />
                                 <span className="text-[#bcfd49] border-b-2">Education</span>

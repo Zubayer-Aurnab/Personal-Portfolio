@@ -24,9 +24,9 @@ const ProjectCard = ({ image, name, children, codeLink, liveLink, youtube }) => 
                     <div
                         className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8 duration-500"
                     >
-                        <h3 className="mt-4  font-medium text-4xl border-b-4 w-max border-[#bcfd49] ">{name}</h3>
+                        <h3 className="mt-4  font-medium text-4xl border-b-4 lg:w-max border-[#bcfd49] ">{name}</h3>
 
-                        <p className="mt-4 text-xl">
+                        <p className="mt-4 lg:text-xl">
                             {children}
                         </p>
 
